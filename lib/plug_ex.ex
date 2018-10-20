@@ -7,15 +7,26 @@ defmodule PlugEx do
     Logger.info("Application started on port #{port}")
 
     children = [
-      Plug.Adapters.Cowboy2.child_spec(scheme: :http, plug: PlugEx.Router, options: [port: port])
+      Plug.Adapters.Cowboy2.child_spec(
+        scheme: :http,
+        plug: PlugEx.Router,
+        options: [
+          port: port
+        ]
+      )
     ]
 
-    arne()
+    IO.inspect sum(1, 2)
 
     Supervisor.start_link(children, strategy: :one_for_one)
   end
 
-  def arne() do
-    :ok
+  @spec sum(integer, integer) :: integer
+  def sum(a, b) do
+    a + b
+  end
+
+  def hello() do
+    :world
   end
 end
