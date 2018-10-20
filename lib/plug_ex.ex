@@ -10,6 +10,12 @@ defmodule PlugEx do
       Plug.Adapters.Cowboy2.child_spec(scheme: :http, plug: PlugEx.Router, options: [port: port])
     ]
 
+    arne()
+
     Supervisor.start_link(children, strategy: :one_for_one)
+  end
+
+  def arne() do
+    :ok
   end
 end
