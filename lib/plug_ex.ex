@@ -26,6 +26,7 @@ defmodule PlugEx do
     a + b
   end
 
+  @spec hello() :: :world
   def hello() do
     :world
   end
