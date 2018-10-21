@@ -16,11 +16,15 @@ defmodule PlugEx do
       )
     ]
 
-    IO.inspect sum(1, 2)
+    hello()
+    IO.inspect(sum(1, 2))
 
     Supervisor.start_link(children, strategy: :one_for_one)
   end
 
+  @doc """
+  Hey
+  """
   @spec sum(integer, integer) :: integer
   def sum(a, b) do
     a + b
