@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb2b1fb-e6a0-47f3-b546-8aa712a1ac10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/plug_ex.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/plug_ex.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/router.ex" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +26,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ex" value="3" />
+          <entry key="ex" value="4" />
           <entry key="exs" value="2" />
           <entry key="html" value="1" />
         </counts>
@@ -33,13 +34,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Elixir Script" value="2" />
-          <entry key="Elixir file" value="3" />
+          <entry key="Elixir file" value="4" />
           <entry key="HTML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="ex" value="773" />
+          <entry key="ex" value="784" />
           <entry key="exs" value="90" />
           <entry key="html" value="14" />
         </counts>
@@ -47,7 +48,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Elixir Script" value="90" />
-          <entry key="Elixir file" value="773" />
+          <entry key="Elixir file" value="784" />
           <entry key="HTML" value="14" />
         </counts>
       </usages-collector>
@@ -58,11 +59,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/plug_ex.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="247">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://C:/Elixir/lib/elixir/lib/map_set.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-475">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -191,7 +201,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540103242262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540138797873" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -284,7 +294,7 @@
       <option name="presentableId" value="Default" />
       <updated>1537106455251</updated>
       <workItem from="1537106459880" duration="6964000" />
-      <workItem from="1540019904253" duration="6903000" />
+      <workItem from="1540019904253" duration="7595000" />
     </task>
     <servers />
   </component>
@@ -297,10 +307,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13867000" />
+    <option name="totallyTimeSpent" value="14559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1485" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -376,8 +387,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/plug_ex.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="247">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Elixir/lib/elixir/lib/map_set.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>

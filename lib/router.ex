@@ -6,7 +6,7 @@ defmodule PlugEx.Router do
   plug(Plug.Static, at: "/home", from: :server)
 
   get "/" do
-    send_resp(conn, 200, "Hello World!")
+    send_resp(conn, 200, "Hello World! #{PlugEx.sum(1,2)}")
   end
 
   get "/about/:username" do

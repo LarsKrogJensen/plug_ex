@@ -26,7 +26,8 @@ defmodule PlugEx.MixProject do
   defp deps do
     [
       {:plug, "~> 1.0"},
-      {:cowboy, "~> 2.0"}
+      {:cowboy, "~> 2.0"},
+      {:distillery, "~> 2.0"}
     ]
   end
 end

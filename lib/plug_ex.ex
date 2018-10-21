@@ -1,4 +1,7 @@
 defmodule PlugEx do
+  @moduledoc """
+  Hahahah
+  """
   use Application
   require Logger
 
@@ -19,6 +22,7 @@ defmodule PlugEx do
     hello()
     IO.inspect(sum(1, 2))
 
+    MapSet.new()
     Supervisor.start_link(children, strategy: :one_for_one)
   end
 
