@@ -3,6 +3,6 @@ defmodule PlugExTest do
   doctest PlugEx
 
   test "greets the world" do
-    assert PlugEx.hello() == :worlda
+    assert PlugEx.hello() == :world
   end
 end
