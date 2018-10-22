@@ -12,5 +12,6 @@ install:
 script:
   - mix compile
   - mix test
+  
 notifications:
   email: false
