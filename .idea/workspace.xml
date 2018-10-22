@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bb2b1fb-e6a0-47f3-b546-8aa712a1ac10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/plug_ex.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/plug_ex.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/router.ex" afterDir="false" />
-    </list>
+    <list default="true" id="3bb2b1fb-e6a0-47f3-b546-8aa712a1ac10" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +15,7 @@
     <session id="855647657">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="2" />
@@ -63,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/lib/plug_ex.ex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -72,7 +69,7 @@
         <entry file="file://C:/Elixir/lib/elixir/lib/map_set.ex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-475">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -201,7 +198,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540138797873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540185082471" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -331,7 +328,7 @@
       <window_info anchor="bottom" id="ANTLR Preview" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.3293011" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.39919356" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -388,14 +385,14 @@
     <entry file="file://$PROJECT_DIR$/lib/plug_ex.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Elixir/lib/elixir/lib/map_set.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-475">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
