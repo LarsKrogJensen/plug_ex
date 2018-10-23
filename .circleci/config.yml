@@ -20,7 +20,7 @@ jobs:
       - run: mix deps.get
       - run: mix compile
       - run: mix test
-      - run: docker build -t larskj/plug-ex:$TAG .
+      - run: docker build -t larskj/plug-ex:1.0 .
 
       - store_test_results:  # upload junit test results for display in Test Summary
           path: _build/test/lib/plug_ex
