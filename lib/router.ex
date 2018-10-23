@@ -15,7 +15,7 @@ defmodule PlugEx.Router do
 
   get "/home" do
     conn = put_resp_content_type(conn, "text/html")
-    send_file(conn, 200, "lib/index.html")
+    send_file(conn, 200, "#{Application.app_dir(:plug_ex, "priv")}/index.html")
   end
 
   match(_, do: send_resp(conn, 404, "Not found"))
