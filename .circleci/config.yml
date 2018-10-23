@@ -11,6 +11,8 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - setup_remote_docker:  
+          docker_layer_caching: true
 
       # specify any bash command here prefixed with `run: `
       - run: mix local.hex --force  # install Hex locally (without prompt)
@@ -18,5 +20,7 @@ jobs:
       - run: mix deps.get
       - run: mix compile
       - run: mix test
+      - run: docker build -t larskj/plug-ex:$TAG .
+
       - store_test_results:  # upload junit test results for display in Test Summary
           path: _build/test/lib/plug_ex
